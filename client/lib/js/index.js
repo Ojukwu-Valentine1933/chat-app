@@ -1,4 +1,4 @@
-const socket =  io("http://localhost:3000");
+const socket =  io("https://bubble-chat-api.onrender.com");
 
 const url = new URL(location.href);
 const room = url.searchParams.get( "room" );
