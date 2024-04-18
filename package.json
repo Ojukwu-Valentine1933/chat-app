@@ -1,0 +1,20 @@
+{
+  "name": "bubble-chat",
+  "version": "1.0.0",
+  "description": "a simple chat application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server",
+    "dev": "nodemon src/server"
+  },
+  "author": "Valid Dev",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
